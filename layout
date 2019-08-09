@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars = "vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTML 가져오기"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정치"
+        android:textSize="60px"
+        android:textColor="#000"
+        android:layout_marginBottom="20px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView1"
+        android:maxLines = "100"
+        android:scrollbars = "vertical"
+        android:layout_above="@+id/button"
+        android:textSize="50px"
+        android:onClick="poli"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="경제"
+        android:textSize="60px"
+        android:textColor="#000"
+        android:layout_marginBottom="20px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView2"
+        android:maxLines = "100"
+        android:scrollbars = "vertical"
+        android:layout_above="@+id/button"
+        android:textSize="50px"
+        android:onClick="eco"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사회"
+        android:textSize="60px"
+        android:textColor="#000"
+        android:layout_marginBottom="20px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView3"
+        android:maxLines = "100"
+        android:scrollbars = "vertical"
+        android:layout_above="@+id/button"
+        android:textSize="50px"
+        android:onClick="soci"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="생활/문화"
+        android:textSize="60px"
+        android:textColor="#000"
+        android:layout_marginBottom="20px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView4"
+        android:maxLines = "100"
+        android:scrollbars = "vertical"
+        android:layout_above="@+id/button"
+        android:textSize="50px"
+        android:onClick="cult"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="세계"
+        android:textSize="60px"
+        android:textColor="#000"
+        android:layout_marginBottom="20px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView5"
+        android:maxLines = "100"
+        android:scrollbars = "vertical"
+        android:layout_above="@+id/button"
+        android:textSize="50px"
+        android:onClick="world"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT/과학"
+        android:textSize="60px"
+        android:textColor="#000"
+        android:layout_marginBottom="20px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView6"
+        android:maxLines = "100"
+        android:scrollbars = "vertical"
+        android:layout_above="@+id/button"
+        android:textSize="50px"
+        android:onClick="it" />
+</LinearLayout>
